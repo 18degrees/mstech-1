@@ -76,7 +76,6 @@ ul {
     list-style: none;
     padding: 0;
     display: flex;
-    row-gap: 15px;
     flex-direction: column;
 }
 ul b {
@@ -127,6 +126,9 @@ section {
 .first-screen .left-side p {
     margin: 30px 0;
     font-size: 1.5em;
+}
+.first-screen .left-side ul {
+    row-gap: 15px;
 }
 .first-screen .left-side ul li {
     column-gap: 12px;
